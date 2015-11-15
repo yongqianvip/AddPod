@@ -85,8 +85,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AddPod", "AddPod/AddPod/NSArray/NSDictionary+Block.{h,m}"
-  s.exclude_files = "AddPod/AddPod"
+  s.source_files  = "Classes", "AddPod/AddPod/**/*.{h,m}"
+  s.exclude_files = "Classes/AddPod"
 
   # s.public_header_files = "AddPod/**/YYQCategory.h"
 
