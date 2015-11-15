@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.summary      = "A useless project of AddPod."
 
   s.description  = <<-DESC
-                  just for fun
+                  A useless project of AddPod. just for fun
                    DESC
 
   s.homepage     = "https://github.com/yongqianvip/AddPod"
