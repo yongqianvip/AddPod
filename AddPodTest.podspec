@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
   s.name         = "AddPodTest"
   s.version      = "0.0.1"
-  s.summary      = "A short description of AddPodTest."
+  s.summary      = "it provide some category for xcode project"
 
   s.description  = <<-DESC
                       A useless project of AddPod just for fun, it will never be updated
