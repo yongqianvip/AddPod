@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary      = "A short description of AddPodTest."
 
   s.description  = <<-DESC
-                      A useless project of AddPod. just for fun A useless project of AddPod. just for fun
+                      A useless project of AddPod just for fun, it will never be updated
                    DESC
 
   s.homepage     = "https://github.com/yongqianvip/AddPod.git"
@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/yongqianvip/AddPod.git", :tag => "0.0.1" }
 
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "AddPodTest/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "Classes/**/YYQCategory.h"
+  s.public_header_files = "AddPodTest/Classes/YYQCategory.h"
 
 
   s.requires_arc = true
