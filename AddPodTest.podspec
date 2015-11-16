@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "AddPodTest"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "it provide some category for xcode project"
 
   s.description  = <<-DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "5.0"
 
 
-  s.source       = { :git => "https://github.com/yongqianvip/AddPod.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/yongqianvip/AddPod.git", :tag => "0.0.3" }
 
 
   s.source_files  = "Classes", "AddPodTest/Classes/**/*.{h,m}"
