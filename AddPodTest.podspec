@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
-  s.author             = { "yongqianvip" => "yongqianvip@163.com" }
+  s.author       = { "yongqianvip" => "yongqianvip@163.com" }
 
   s.platform     = :ios, "5.0"
 
@@ -25,7 +25,8 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "AddPodTest/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "AddPodTest/Classes/YYQCategory.h"
+  s.public_header_files = "AddPodTest/Classes/YYQCategory.h","AddPodTest/Classes/**/*.h"
+
 
 
   s.requires_arc = true

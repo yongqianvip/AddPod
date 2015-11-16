@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "YYQCategory.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSArray *a = @[@"we",@"adsf",@"afdsf"];
+    [a each:^(id object) {
+        NSLog(@"%@",object);
+    }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -45,6 +45,7 @@
 		5B20684F1BF8D59C00F02B28 /* NSDictionary+SafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SafeAccess.h"; sourceTree = "<group>"; };
 		5B2068501BF8D59C00F02B28 /* NSDictionary+SafeAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafeAccess.m"; sourceTree = "<group>"; };
 		5B2068571BF8D5D500F02B28 /* YYQCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYQCategory.h; sourceTree = "<group>"; };
+		5BE3D2D31BF9ACE100030578 /* YYQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYQ.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 				5B2068431BF8D59C00F02B28 /* NSArray */,
 				5B2068481BF8D59C00F02B28 /* NSDictionary */,
 				5B2068571BF8D5D500F02B28 /* YYQCategory.h */,
+				5BE3D2D31BF9ACE100030578 /* YYQ.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -360,6 +362,7 @@
 				5B2068411BF8D27F00F02B28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
